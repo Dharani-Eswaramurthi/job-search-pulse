@@ -1,0 +1,14 @@
+{
+  "name": "job-search-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A privacy-conscious community job-search dashboard connected to Google Forms and Sheets.",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env scripts/dev.mjs",
+    "start": "node --env-file-if-exists=.env scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

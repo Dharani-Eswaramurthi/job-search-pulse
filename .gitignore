@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.vercel/
+.netlify/
+*.pem
+*service-account*.json
+test-results/
